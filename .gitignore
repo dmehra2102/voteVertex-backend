@@ -1,0 +1,17 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+public/
+
+# TSC compiles files
+dist
+
+# Dependency directory
+node_modules
+
+# .env
+.env
+.env.development.local
+.env.production.local
+.env.test.local
