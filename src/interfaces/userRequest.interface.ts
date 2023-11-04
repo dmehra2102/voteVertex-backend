@@ -3,5 +3,5 @@ import { UserDocument } from "./user.interface";
 
 export interface UserRequest extends Request {
   user: Partial<UserDocument>;
-  isAuthenticated: () => {};
+  isAuthenticated: () => boolean;
 }
